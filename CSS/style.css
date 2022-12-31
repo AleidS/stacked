@@ -1,0 +1,129 @@
+body{
+    background-color:rgb(255, 255, 255);
+    color:rgb(1, 0, 0);
+    text-align:center;
+    font-family:arial;
+    overflow-x:hidden;
+    width:100vw;
+
+}
+.container{
+    width:100vw;
+    display:block;
+
+    max-width:800px;
+    background-color:rgb(189, 189, 248);
+    position:relative;
+    margin:auto;
+    text-align:justify;
+    margin-top:20px;
+    padding-bottom:100px;
+}
+a{
+   color:rgb(37, 37, 68);
+}
+p, h2{
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:20px;
+    display:block;
+    z-index:3;
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+h1{
+    text-align:center;
+    width:100%;
+    background-color:rgb(37, 37, 68);
+    color:white;
+    font-weight:400;
+    font-family:impact;
+    text-transform:uppercase;
+    letter-spacing: 1.6rem;
+    position:sticky;
+    flex-wrap: nowrap;
+    top:0px;
+    margin-top:0px;
+    transform:translateY(-20%);
+    padding-bottom:20px;
+    padding-top:20px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    margin:0;
+    font-size:4rem;
+
+}
+
+.tetris{
+    aspect-ratio: 1 / 1;
+    width:30%;
+    top:0;
+    position:sticky!important;
+    text-align:center;
+    background:none;
+    border:none;
+    z-index:1;
+}
+.svgText, .svgText2, .svgText3, .svgText4, .svgText5{
+    position:absolute;
+    width:100%;
+    height:fit-content;
+    margin:auto;
+    text-align:center;
+    font-size:3.2rem;
+    font-size:clamp(12px,3.2rem,6vw);
+    color:rgb(255, 255, 255);
+    font-family:impact;
+    text-transform:uppercase;
+    letter-spacing: 0.2rem;
+    text-shadow: 0px 4px 2px rgba(16, 23, 154, 0.336),-2px -2px 2px rgba(16, 23, 154, 0.162);
+}
+.svgText3{
+    transform:translateY(78%)rotateZ(30deg);}
+
+.svgText2{
+    transform: translateX(-14%)translateY(140%);
+}
+.svgText4{
+    transform: translateX(30%)translateY(200%)rotateZ(90deg);
+}
+.svgText5{
+    transform: translateX(0%)translateY(140%);
+}
+
+.tetris:hover{
+    opacity:0.5;
+}
+#tetris_1{
+    transform: translateX(0%)translateY(70%);
+}
+#tetris_2{
+    transform: translateX(66%)translateY(67%);
+}
+.tetris_2{
+    transform:translateY(15%);
+}
+
+#tetris_3{
+    transform: translateX(200%)translateY(67%);
+}
+
+#tetris_4{
+    transform: translateX(166%)translateY(67%);
+}
+#tetris_5{
+    transform: translateX(133%)translateY(67%);
+}
+#tetris_6{
+    transform: translateX(199.5%)translateY(100%);
+}
+#tetris_7{
+    transform: translateX(0%)translateY(100%);
+}
+#tetris_8{
+    transform: translateX(133%)translateY(97%);
+}
+#tetris_9{
+    transform: translateX(233%)translateY(51%);
+}
