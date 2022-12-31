@@ -11,13 +11,13 @@ body{
     width:100vw;
     display:block;
 
-    max-width:800px;
+    max-width:900px;
     background-color:rgb(189, 189, 248);
     position:relative;
     margin:auto;
     text-align:justify;
     margin-top:20px;
-    padding-bottom:100px;
+    padding-bottom:200px;
 }
 a{
    color:rgb(37, 37, 68);
@@ -28,9 +28,11 @@ p, h2{
     padding:20px;
     display:block;
     z-index:3;
-    width:300px;
+    width:600px;
     margin-left:auto;
     margin-right:auto;
+    font-size:2rem;
+    z-index:2;
 }
 h1{
     text-align:center;
@@ -96,34 +98,34 @@ h1{
     opacity:0.5;
 }
 #tetris_1{
-    transform: translateX(0%)translateY(70%);
+    transform: translateX(0%)translateY(0%);
 }
 #tetris_2{
-    transform: translateX(66%)translateY(67%);
+    transform: translateX(66%)translateY(-2%);
 }
 .tetris_2{
     transform:translateY(15%);
 }
 
 #tetris_3{
-    transform: translateX(200%)translateY(67%);
+    transform: translateX(200%)translateY(0%);
 }
 
 #tetris_4{
-    transform: translateX(166%)translateY(67%);
+    transform: translateX(166%)translateY(0%);
 }
 #tetris_5{
-    transform: translateX(133%)translateY(67%);
+    transform: translateX(133%)translateY(0%);
 }
 #tetris_6{
-    transform: translateX(199.5%)translateY(100%);
+    transform: translateX(199.5%)translateY(32%);
 }
 #tetris_7{
-    transform: translateX(0%)translateY(100%);
+    transform: translateX(0%)translateY(30%);
 }
 #tetris_8{
-    transform: translateX(133%)translateY(97%);
+    transform: translateX(133%)translateY(31%);
 }
 #tetris_9{
-    transform: translateX(233%)translateY(51%);
+    transform: translateX(233%)translateY(0%);
 }
